@@ -1,0 +1,52 @@
+
+GIT ALL OVER CONFIGRATION AND IMPLIMENATION
+
+GIT INSTALLATION IN LOCAL MACHINE THROUGH CLI
+COMMAND1:- " sudo apt-get install git  "
+
+LOGIN TO YOUR GITHUB ACCOUNT THROUGH CLI 
+COMMAND 2.1 git config --global user.name "vinaydp78"
+COMMAND 2.2 git config --global user.email "vinaydp78@gmail.com"
+
+CLONING THE REPOSITORY
+COMMAND :-  git clone https://github.com/vinaydp78/urban-chainsaw.git
+
+NOW HERE IN YOUR LOCAL PWD NEW CLONE DIRECTORY IS CREATED BY USING CLONE
+NOW SIMPLY GET IN THAT DIRECTORY
+
+CHECK STATUS OF GIT REPOSITORY BY USING 
+COMMAND :- " git status "
+NOTE    :IN STATUS YOU ARE ABLE TO SEE HOW MANY BRANCHES ARE AVAILBALE ,  
+         MASTER BRANCH IS MAIN BRANCH OF YOUR REPOSITORY , YOUY CAN CREATE
+         MANY SUB BRANCH OF THAT PRESENT MASTER BRANCH AND CHANGE WHAT YOU WANT 
+         IN REPOSITORY .
+         
+        
+YOU CAN SIMPLY EDIT PRSENT FILE USING " VI EDITOR OR VIM " BY USING USER ROOT
+
+THEN CHECK YOUR BRANCH WEATHER YOU ARE IN CORECT BRANCH OR NOT 
+BY USING " git status " and " git branch " command respectively .
+
+" git add . " this command helps you to add everything in staging area that you are made changes in 
+files .
+
+THE FOLLOWING COMMANDS ARE USED TO "COMMIT " AND "PUSH" THE CHNAGES WTHIOCH WE ARE MADE
+
+COMMAND1 :-  git commit -m "First Commit"  
+COMMAND2 :-  git push 
+
+COMAMND 3 :- "git branch newbranchname " THIS COMMAND YOU CAN USE TO CREATE CREATE NEW BRANCH OF PRESENT BRANCH
+
+COMMAND 4 :-"git checkout  branchname " will help to enter or you will be able to craete  new branch
+
+THANK YOU 
+
+
+
+
+
+
+         
+        
+         
+         
